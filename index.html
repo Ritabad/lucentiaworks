@@ -1,316 +1,1146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LucentIA Works: Two conversations. One plan. Five hours back.</title>
-<meta name="description" content="A paid AI assessment for owners who already tried AI and got stuck. Two conversations, one clear plan, at least five hours a week back. English and Spanish, Chicago and Alicante.">
-<link rel="canonical" href="https://lucentiaworks.com/">
-<meta property="og:title" content="Two conversations. One plan. At least five hours a week back.">
-<meta property="og:description" content="AI assessments for small business owners. Two conversations, one clear plan, at least five hours a week back.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://lucentiaworks.com/">
-<meta property="og:image" content="https://lucentiaworks.com/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="LucentIA Works wordmark on a warm paper background">
-<meta property="og:site_name" content="LucentIA Works">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%23F6F0E1'/%3E%3Ctext%20x='16'%20y='20'%20font-family='Georgia,serif'%20font-size='17'%20font-weight='600'%20fill='%231B2B45'%20text-anchor='middle'%3EL%3C/text%3E%3Cpath%20d='M7%2026%20Q11.5%2022%2016%2026%20T25%2026'%20fill='none'%20stroke='%23B0402C'%20stroke-width='2.4'%20stroke-linecap='round'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root{
-    /* La Explanada de Alicante: marfil, terracotta (Alicante red), dark navy */
-    --paper:#F6F0E1;
-    --paper-2:#EFE7D1;
-    --ink:#1B2B45;
-    --ink-2:#3D4D67;
-    --ink-3:#5B6981;
-    --accent:#B0402C;
-    --accent-soft:#E9D3C4;
-    --navy:#1B2B45;
-    --rule-solid:#E0D5BC;
-    --serif:'Fraunces',Georgia,'Times New Roman',serif;
-    --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
-    --measure:34rem;
-  }
-  @media (prefers-color-scheme:dark){
-    :root{
-      --paper:#101D31;
-      --paper-2:#162740;
-      --ink:#F2ECDC;
-      --ink-2:#CBC7B4;
-      --ink-3:#96A0B4;
-      --accent:#E77E52;
-      --accent-soft:#33261E;
-      --navy:#F2ECDC;
-      --rule-solid:#24344F;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LucentIA Works — AI should make your week lighter</title>
+  <meta name="description" content="A practical, bilingual AI tools assessment for people already using AI who want a clearer plan, better safeguards, and time back.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://lucentiaworks.com/">
+  <meta property="og:title" content="AI should make your week lighter.">
+  <meta property="og:description" content="A practical AI tools assessment, in English or Spanish.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucentiaworks.com/">
+  <meta property="og:image" content="https://lucentiaworks.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="LucentIA Works: AI should make your week lighter">
+  <meta property="og:site_name" content="LucentIA Works">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      --navy: #14324a;
+      --navy-deep: #0d2538;
+      --navy-soft: #28485f;
+      --coral: #f05a47;
+      --aqua: #2ba6a5;
+      --aqua-dark: #176f6e;
+      --cream: #fff6e7;
+      --sun: #f6c453;
+      --white: #fffdf8;
+      --line: rgba(20, 50, 74, .16);
+      --muted: #5b6d78;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+      --shadow: 0 24px 70px rgba(20, 50, 74, .16);
+      --radius: 28px;
     }
-  }
-  *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
-  body{
-    margin:0;
-    background:var(--paper);
-    color:var(--ink);
-    font-family:var(--sans);
-    font-size:17px;
-    line-height:1.65;
-    -webkit-font-smoothing:antialiased;
-    text-rendering:optimizeLegibility;
-  }
-  .wrap{max-width:46rem;margin:0 auto;padding:0 1.5rem}
-  section{padding:4.5rem 0}
-  section + section{border-top:1px solid var(--rule-solid)}
 
-  h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-0.015em;line-height:1.15;margin:0}
-  h1{font-size:clamp(2.1rem,5.4vw,3.3rem);line-height:1.08;letter-spacing:-0.025em}
-  h2{font-size:clamp(1.5rem,3.4vw,2.05rem);margin-bottom:1.4rem}
-  h3{font-size:1.1rem;font-family:var(--sans);font-weight:600;letter-spacing:0;margin-bottom:.35rem}
-  p{margin:0 0 1.15rem;max-width:var(--measure)}
-  p:last-child{margin-bottom:0}
-  a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
-  strong{font-weight:600;color:var(--ink)}
-  em{font-style:italic}
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--navy);
+      background: var(--cream);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.62;
+    }
 
-  /* header */
-  header{padding:2.2rem 0 0}
-  .mark{font-family:var(--serif);font-size:1.22rem;font-weight:600;letter-spacing:-0.02em;color:var(--ink);text-decoration:none;display:inline-block}
-  .mark i{font-style:normal;color:var(--accent)}
-  .marktext{display:inline-flex;flex-direction:column;gap:2px}
-  .marktext > span{font-weight:400;color:var(--ink-3);margin-left:.12em}
-  .mark .marktext{gap:3px}
-  .marktext svg{display:block}
-  .wave path{fill:none;stroke-width:2;stroke-linecap:round;opacity:.85}
-  .wave .w1{stroke:var(--accent)}
+    a { color: inherit; }
+    img { display: block; max-width: 100%; }
+    button, a { -webkit-tap-highlight-color: transparent; }
 
-  /* hero */
-  .hero{padding:3.4rem 0 4.5rem}
-  .hero h1{margin-bottom:1.5rem;max-width:19ch}
-  .lede{font-size:1.14rem;color:var(--ink-2);max-width:38rem}
-  .lede strong{color:var(--ink)}
+    .shell {
+      width: min(1160px, calc(100% - 40px));
+      margin: 0 auto;
+    }
 
-  .actions{display:flex;flex-wrap:wrap;gap:.85rem 1.4rem;align-items:center;margin-top:2rem}
-  .btn{
-    display:inline-block;background:var(--accent);color:var(--paper);
-    font-family:var(--sans);font-weight:600;font-size:.95rem;
-    padding:.78rem 1.5rem;border-radius:2px;text-decoration:none;
-    transition:transform .12s ease,opacity .12s ease;
-  }
-  .btn:hover{opacity:.9;transform:translateY(-1px)}
-  .btn-text{font-size:.95rem;font-weight:500;color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:2px}
-  .btn-text:hover{color:var(--accent);border-color:var(--accent)}
-  .trust{margin-top:1.6rem;font-size:.88rem;color:var(--ink-3);letter-spacing:.01em}
+    header {
+      position: relative;
+      z-index: 3;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 246, 231, .92);
+    }
 
-  /* steps */
-  ol.steps{list-style:none;counter-reset:s;padding:0;margin:2rem 0 0}
-  ol.steps li{counter-increment:s;position:relative;padding-left:3.1rem;margin-bottom:1.9rem;max-width:var(--measure)}
-  ol.steps li::before{
-    content:counter(s);position:absolute;left:0;top:-.1rem;
-    font-family:var(--serif);font-size:1.35rem;color:var(--accent);font-weight:500;
-  }
-  ol.steps p{margin:0;color:var(--ink-2)}
+    .nav {
+      min-height: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
 
-  /* callout */
-  .callout{
-    background:var(--paper-2);border-left:2px solid var(--accent);
-    padding:1.5rem 1.6rem;margin:2.4rem 0 0;max-width:var(--measure);
-  }
-  .callout p{margin:0;font-size:1.02rem}
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
 
-  /* price */
-  .price{margin:2.4rem 0 0;max-width:var(--measure)}
-  .price .row{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:.85rem 0;border-bottom:1px solid var(--rule-solid)}
-  .price .row:first-child{border-top:1px solid var(--rule-solid)}
-  .price .label{color:var(--ink-2);font-size:.98rem}
-  .price .amt{font-family:var(--serif);font-size:1.45rem;color:var(--ink);white-space:nowrap}
-  .price .note{font-size:.9rem;color:var(--ink-3);margin-top:.9rem}
+    .wordmark {
+      display: inline-flex;
+      align-items: baseline;
+      gap: .45rem;
+      text-decoration: none;
+      letter-spacing: -.04em;
+      white-space: nowrap;
+    }
 
-  /* lists */
-  ul.plain{list-style:none;padding:0;margin:.4rem 0 0;max-width:var(--measure)}
-  ul.plain li{position:relative;padding-left:1.4rem;margin-bottom:.7rem;color:var(--ink-2)}
-  ul.plain li::before{content:'';position:absolute;left:0;top:.68em;width:.45rem;height:1px;background:var(--accent)}
-  .fit-grid{display:grid;gap:2.6rem}
-  @media(min-width:44rem){.fit-grid{grid-template-columns:1fr 1fr;gap:2.4rem 3rem}}
-  .fit-grid h3{color:var(--ink)}
-  .fit-grid .no li::before{background:var(--ink-3)}
+    .wordmark strong {
+      font-size: 1.62rem;
+      line-height: 1;
+    }
 
-  /* faq */
-  .faq{margin-top:.5rem;max-width:var(--measure)}
-  .faq details{border-bottom:1px solid var(--rule-solid);padding:1.05rem 0}
-  .faq details:first-of-type{border-top:1px solid var(--rule-solid)}
-  .faq summary{
-    cursor:pointer;list-style:none;font-weight:500;color:var(--ink);
-    display:flex;justify-content:space-between;align-items:center;gap:1rem;
-  }
-  .faq summary::-webkit-details-marker{display:none}
-  .faq summary::after{content:'+';color:var(--accent);font-size:1.2rem;line-height:1;flex-shrink:0}
-  .faq details[open] summary::after{content:'–'}
-  .faq details p{margin:.8rem 0 .2rem;color:var(--ink-2);font-size:.98rem}
+    .wordmark .ia { color: var(--coral); }
+    .wordmark small {
+      font-size: .92rem;
+      font-weight: 650;
+      letter-spacing: -.02em;
+    }
 
-  /* about */
-  .about p{max-width:38rem}
-  .strip{margin-top:1.8rem;font-size:.88rem;color:var(--ink-3);line-height:1.9}
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.4rem;
+      font-size: .84rem;
+      font-weight: 700;
+    }
 
-  /* close */
-  .close{background:var(--paper-2);border-top:1px solid var(--rule-solid)}
-  .close h2{margin-bottom:1.1rem}
+    .nav-links a {
+      text-decoration: none;
+    }
 
-  footer{padding:3rem 0 4rem;border-top:1px solid var(--rule-solid);font-size:.9rem;color:var(--ink-3)}
-  footer .mark{font-size:1.05rem;margin-bottom:.7rem}
-  footer a{color:var(--ink-2)}
-  footer .fine{margin-top:1.4rem;font-size:.82rem;max-width:var(--measure)}
+    .nav-links .nav-cta {
+      padding: .72rem 1rem;
+      color: var(--cream);
+      border-radius: 999px;
+      background: var(--navy);
+    }
 
-  @media(max-width:30rem){
-    body{font-size:16.5px}
-    section{padding:3.4rem 0}
-    .hero{padding:2.6rem 0 3.4rem}
-  }
-</style>
+    .language-toggle {
+      display: inline-flex;
+      padding: 3px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--white);
+    }
+
+    .language-toggle button {
+      min-width: 42px;
+      padding: .48rem .62rem;
+      color: var(--muted);
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      font: inherit;
+      font-size: .74rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .language-toggle button[aria-pressed="true"] {
+      color: var(--cream);
+      background: var(--coral);
+    }
+
+    [data-language-panel][hidden],
+    [data-language-nav][hidden] {
+      display: none;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 84px 0 96px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.02fr) minmax(380px, .9fr);
+      gap: clamp(48px, 7vw, 92px);
+      align-items: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 1.15rem;
+      color: var(--aqua-dark);
+      font-size: .76rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-weight: 500;
+      letter-spacing: -.045em;
+      line-height: 1.02;
+    }
+
+    h1 {
+      max-width: 750px;
+      font-size: clamp(3rem, 5.7vw, 5.6rem);
+    }
+
+    h2 {
+      font-size: clamp(2.3rem, 4vw, 4.3rem);
+    }
+
+    .hero-copy .lede {
+      max-width: 650px;
+      margin: 1.65rem 0 2rem;
+      color: var(--navy-soft);
+      font-size: clamp(1.08rem, 1.4vw, 1.27rem);
+      line-height: 1.55;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: .9rem 1.25rem;
+      color: var(--cream);
+      border: 2px solid var(--navy);
+      border-radius: 999px;
+      background: var(--navy);
+      font-weight: 760;
+      text-decoration: none;
+      transition: transform .18s ease, background .18s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      background: var(--navy-soft);
+    }
+
+    .button.light {
+      color: var(--navy);
+      border-color: var(--cream);
+      background: var(--cream);
+    }
+
+    .micro {
+      margin: .9rem 0 0;
+      color: var(--muted);
+      font-size: .82rem;
+    }
+
+    .portrait-wrap {
+      position: relative;
+      min-height: 560px;
+    }
+
+    .portrait-block {
+      position: absolute;
+      inset: 0 10px 18px 34px;
+      overflow: hidden;
+      border: 8px solid var(--white);
+      border-radius: 52% 48% 24px 24px / 20% 20% 24px 24px;
+      background: var(--aqua);
+      box-shadow: var(--shadow);
+      transform: rotate(1.2deg);
+    }
+
+    .portrait-block img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 54% center;
+      transform: scale(1.015) rotate(-1.2deg);
+    }
+
+    .coral-corner {
+      position: absolute;
+      right: -24px;
+      bottom: 0;
+      width: 180px;
+      height: 180px;
+      border-radius: 44% 56% 18px 56%;
+      background: var(--coral);
+      transform: rotate(8deg);
+    }
+
+    .wave-signature {
+      position: absolute;
+      left: -24px;
+      bottom: 38px;
+      width: 210px;
+      padding: 22px 24px;
+      border-radius: 24px;
+      background: var(--white);
+      box-shadow: 0 18px 45px rgba(20, 50, 74, .16);
+    }
+
+    .wave-signature svg { display: block; width: 100%; height: auto; }
+
+    .section {
+      padding: 96px 0;
+    }
+
+    .white { background: var(--white); }
+
+    .statement {
+      position: relative;
+      padding: 72px 0;
+      color: var(--navy-deep);
+      background: var(--coral);
+    }
+
+    .statement-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .statement h2 { max-width: 580px; }
+    .statement p {
+      margin: 0;
+      font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+      line-height: 1.55;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 60px;
+      align-items: end;
+      margin-bottom: 52px;
+    }
+
+    .section-head p {
+      max-width: 670px;
+      margin: 0;
+      color: var(--navy-soft);
+      font-size: 1.1rem;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .step {
+      min-height: 268px;
+      padding: 28px 24px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, .52);
+      counter-increment: step;
+    }
+
+    .step::before {
+      content: "0" counter(step);
+      display: block;
+      margin-bottom: 3.8rem;
+      color: var(--coral);
+      font-family: var(--serif);
+      font-size: 1.7rem;
+    }
+
+    .step h3 {
+      margin: 0 0 .65rem;
+      font-size: 1.05rem;
+      line-height: 1.2;
+    }
+
+    .step p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.5;
+    }
+
+    .price-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: center;
+      margin-top: 28px;
+      padding: 30px;
+      border-radius: 24px;
+      color: var(--cream);
+      background: var(--navy);
+    }
+
+    .understanding-note {
+      display: grid;
+      grid-template-columns: .75fr 1.25fr;
+      gap: 44px;
+      align-items: start;
+      margin-top: 28px;
+      padding: clamp(28px, 4vw, 44px);
+      border: 2px solid var(--aqua);
+      border-radius: 24px;
+      background: var(--white);
+    }
+
+    .understanding-note h3 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(1.9rem, 3vw, 3rem);
+      font-weight: 500;
+      letter-spacing: -.04em;
+      line-height: 1.05;
+    }
+
+    .understanding-note p {
+      margin: 0;
+      color: var(--navy-soft);
+    }
+
+    .understanding-note .future-line {
+      margin-bottom: 1rem;
+      color: var(--navy);
+      font-family: var(--serif);
+      font-size: clamp(1.35rem, 2vw, 1.85rem);
+      line-height: 1.25;
+    }
+
+    .understanding-note blockquote {
+      margin: 1.25rem 0 0;
+      padding-left: 1.15rem;
+      border-left: 4px solid var(--coral);
+      font-family: var(--serif);
+      font-size: 1.12rem;
+      line-height: 1.45;
+    }
+
+    .understanding-note cite {
+      display: block;
+      margin-top: .55rem;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: .72rem;
+      font-style: normal;
+      line-height: 1.4;
+    }
+
+    .understanding-note cite a {
+      text-underline-offset: 2px;
+    }
+
+    .price-row p { margin: 0; }
+    .price-row .price {
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .price-row .price del {
+      margin-right: .45rem;
+      color: rgba(255, 246, 231, .55);
+      font-size: .48em;
+    }
+
+    .guarantee {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 44px;
+      align-items: start;
+      margin-top: 18px;
+      padding: 34px;
+      border: 2px solid var(--navy);
+      border-radius: 24px;
+    }
+
+    .guarantee .draft {
+      color: #a93629;
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .guarantee p {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(1.25rem, 2.2vw, 1.85rem);
+      line-height: 1.35;
+    }
+
+    .about {
+      color: var(--navy-deep);
+      background: var(--aqua);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: .75fr 1.25fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .fields {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .55rem;
+      margin: 1.5rem 0 0;
+    }
+
+    .fields span {
+      padding: .5rem .75rem;
+      border: 1px solid rgba(13, 37, 56, .5);
+      border-radius: 999px;
+      font-size: .78rem;
+      font-weight: 750;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .about-copy {
+      max-width: 720px;
+      font-family: var(--serif);
+      font-size: clamp(1.45rem, 2.3vw, 2.05rem);
+      line-height: 1.42;
+    }
+
+    .about-copy p { margin: 0; }
+    .about-copy .signature {
+      margin-top: 1.65rem;
+      font-family: var(--sans);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .fit-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .fit-card {
+      padding: clamp(28px, 4vw, 48px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--cream);
+    }
+
+    .fit-card:last-child {
+      background: rgba(43, 166, 165, .09);
+    }
+
+    .fit-card h3 {
+      margin: 0 0 1.4rem;
+      font-family: var(--serif);
+      font-size: clamp(1.65rem, 2.7vw, 2.45rem);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.1;
+    }
+
+    .fit-card ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .fit-card li {
+      position: relative;
+      padding: .8rem 0 .8rem 1.8rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .fit-card li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--coral);
+      font-weight: 800;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: .75fr 1.25fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .faq-intro {
+      position: sticky;
+      top: 32px;
+    }
+
+    details {
+      border-top: 1px solid var(--line);
+      padding: 1.25rem 0;
+    }
+
+    details:last-child { border-bottom: 1px solid var(--line); }
+
+    summary {
+      position: relative;
+      padding-right: 2.2rem;
+      cursor: pointer;
+      font-weight: 760;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      right: .15rem;
+      top: -.25rem;
+      color: var(--coral);
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+
+    details[open] summary::after { content: "−"; }
+
+    details p {
+      max-width: 650px;
+      margin: .7rem 0 0;
+      color: var(--muted);
+    }
+
+    .contact {
+      padding: 92px 0;
+      color: var(--cream);
+      background: var(--navy);
+      text-align: center;
+    }
+
+    .contact h2 {
+      max-width: 820px;
+      margin: 0 auto 1.35rem;
+    }
+
+    .contact .eyebrow {
+      color: var(--sun);
+    }
+
+    .contact p {
+      max-width: 620px;
+      margin: 0 auto 1.8rem;
+      color: rgba(255, 246, 231, .78);
+      font-size: 1.08rem;
+    }
+
+    .privacy-note {
+      max-width: 700px;
+      margin: 2rem auto 0 !important;
+      font-size: .76rem !important;
+    }
+
+    footer {
+      padding: 34px 0;
+      color: var(--navy);
+      background: var(--cream);
+    }
+
+    .footer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      font-size: .8rem;
+    }
+
+    .footer-row p { margin: 0; }
+
+    @media (max-width: 900px) {
+      .nav-links a:not(.nav-cta) { display: none; }
+      .hero { padding-top: 54px; }
+      .hero-grid,
+      .statement-grid,
+      .section-head,
+      .about-grid,
+      .faq-grid,
+      .fit-grid,
+      .understanding-note {
+        grid-template-columns: 1fr;
+        gap: 34px;
+      }
+      .portrait-wrap { min-height: 520px; }
+      .steps { grid-template-columns: repeat(2, 1fr); }
+      .faq-intro { position: static; }
+      .guarantee { grid-template-columns: 1fr; gap: 15px; }
+    }
+
+    @media (max-width: 580px) {
+      body { font-size: 16px; }
+      .shell { width: min(100% - 26px, 1160px); }
+      .nav { min-height: 72px; }
+      .wordmark strong { font-size: 1.35rem; }
+      .wordmark small { display: none; }
+      .nav-actions { gap: .65rem; }
+      .language-toggle button { min-width: 38px; padding: .42rem .5rem; }
+      .hero { padding: 46px 0 70px; }
+      .portrait-wrap { min-height: 430px; }
+      .portrait-block { left: 14px; }
+      .wave-signature { width: 160px; left: -6px; }
+      .section { padding: 72px 0; }
+      .statement { padding: 58px 0; }
+      .steps { grid-template-columns: 1fr; }
+      .step { min-height: 0; }
+      .step::before { margin-bottom: 2rem; }
+      .price-row { grid-template-columns: 1fr; }
+      .footer-row { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
 </head>
 <body>
-
-<div class="wrap">
   <header>
-    <a class="mark" href="/"><span class="marktext">Lucent<i>IA</i><span>Works</span><svg class="wave" width="76" height="8" viewBox="0 0 76 8" aria-hidden="true"><path class="w1" d="M2 5 Q11.5 -1 21 5 T40 5 T59 5 T78 5"/></svg></span></a>
+    <div class="shell nav">
+      <a class="wordmark" href="#top" aria-label="LucentIA Works home">
+        <strong>Lucent<span class="ia">IA</span></strong>
+        <small>Works</small>
+      </a>
+      <div class="nav-actions">
+        <nav class="nav-links" aria-label="Main navigation" data-language-nav="en">
+          <a href="#assessment">The assessment</a>
+          <a href="#about">About Rita</a>
+          <a href="#questions">Questions</a>
+          <a class="nav-cta" href="#contact">Tell me where you got stuck</a>
+        </nav>
+        <nav class="nav-links" aria-label="Navegación principal" data-language-nav="es" hidden>
+          <a href="#evaluacion">La evaluación</a>
+          <a href="#sobre-rita">Sobre Rita</a>
+          <a href="#preguntas">Preguntas</a>
+          <a class="nav-cta" href="#contacto">¿Dónde te atascas?</a>
+        </nav>
+        <div class="language-toggle" aria-label="Choose language">
+          <button type="button" data-set-language="en" aria-pressed="true">EN</button>
+          <button type="button" data-set-language="es" aria-pressed="false">ES</button>
+        </div>
+      </div>
+    </div>
   </header>
-</div>
 
-<main>
-<section class="hero">
-  <div class="wrap">
-    <h1>Two conversations. One plan. At least five hours a week back.</h1>
-    <p class="lede">A paid assessment for owners who already tried AI and got stuck. Four billion tokens in, I still find this hard to keep up with, which is exactly why you shouldn't have to chase it alone.</p>
-    <div class="actions">
-      <a class="btn" href="mailto:rita@lucentiaworks.com?subject=Fifteen%20minutes&amp;body=Hi%20Rita%2C%20I%27d%20like%20the%20free%2015-minute%20look.%20Here%27s%20what%20my%20week%20looks%20like%3A">Email me for a free 15-minute look</a>
-      <a class="btn-text" href="#assessment">See how it works</a>
-    </div>
-    <p class="trust">Chicago and Alicante. English and Spanish.</p>
-  </div>
-</section>
+  <div data-language-panel="en">
+  <main id="top">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">AI tools assessment · English / Español</p>
+          <h1>AI should make your week lighter.</h1>
+          <p class="lede">You are already trying the tools. Some things work, some almost work, and the choices keep multiplying. I look at how your business actually runs and give you a clear, practical plan for what to do next.</p>
+          <a class="button" href="#contact">Tell me where you got stuck</a>
+          <p class="micro">A short first conversation. No pitch. No homework.</p>
+        </div>
 
-<section>
-  <div class="wrap">
-    <h2>You are not the one who hasn't tried.<br>You are the one still stuck after trying.</h2>
-    <p>Goldman Sachs' 2026 survey of more than 1,200 small business owners found that three out of four use AI, but roughly one in seven have worked it into operations.</p>
-    <p>The tools are not the hard part. Choosing one for your week, then setting it up to keep doing the job without being re-taught, is operations work. <strong>That is the work I look at.</strong></p>
-  </div>
-</section>
-
-<section id="assessment">
-  <div class="wrap">
-    <h2>The AI Tools Assessment</h2>
-    <p>Two conversations, one report, a plan you can start on your own.</p>
-    <ol class="steps">
-      <li><h3>Discovery call, 45 minutes</h3><p>I ask where the week goes, what you re-do and what you have tried. With your OK, I record it so you do not take notes.</p></li>
-      <li><h3>I do the work</h3><p>I map your workflows to current tools and check every recommendation. No generated lists, affiliate links or tools I would not use.</p></li>
-      <li><h3>Your report</h3><p>What to fix first, what it costs, what it saves and a four-day plan for the first win.</p></li>
-      <li><h3>Review call, 30 minutes</h3><p>We walk through it. You leave knowing what to do next, whether or not you hire me again.</p></li>
-    </ol>
-
-    <div class="callout">
-      <p>If your report doesn't document at least five reclaimable hours a week, and we agree on that together at the review call, <strong>no invoice: you pay nothing and keep the report</strong>.</p>
-    </div>
-
-    <div class="price">
-      <div class="row"><span class="label">Full assessment</span><span class="amt">$999</span></div>
-      <div class="row"><span class="label">Founding rate, my first few clients</span><span class="amt">$499</span></div>
-      <p class="note">The founding rate is for honest feedback and, if I earned one, an introduction. The fee credits in full toward follow-on work started within 60 days.</p>
-    </div>
-    <div class="actions">
-      <a class="btn" href="mailto:rita@lucentiaworks.com?subject=Fifteen%20minutes&amp;body=Hi%20Rita%2C%20I%27d%20like%20the%20free%2015-minute%20look.%20Here%27s%20what%20my%20week%20looks%20like%3A">Email me for a free 15-minute look</a>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>What I'm actually doing when I say "AI"</h2>
-    <p>What I build and use is closer to a set of small, reliable helpers: keeping books current, organizing documents or finding the three emails that matter.</p>
-    <p>The difference from a chatbot is memory and repetition. A system knows the job and shows up tomorrow. You do not need to understand what happens underneath. You tell me where the week gets stuck.</p>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="fit-grid">
-      <div>
-        <h2 style="font-size:1.35rem;margin-bottom:1rem">This fits you if</h2>
-        <ul class="plain">
-          <li>You run a 2-to-20-person business, or you are the business.</li>
-          <li>Admin, email, books and paperwork take time from the work you are good at.</li>
-          <li>You have tried AI, gotten somewhere and gotten stuck.</li>
-          <li>You want one clear plan, not another subscription.</li>
-        </ul>
+        <div class="portrait-wrap" aria-label="Portrait of Rita Abad">
+          <div class="coral-corner" aria-hidden="true"></div>
+          <div class="portrait-block">
+            <img src="rita-hero-studio-2026-07-29.jpeg" alt="Rita Abad smiling in a professional portrait">
+          </div>
+          <div class="wave-signature" aria-label="LucentIA Works Explanada wave mark">
+            <svg viewBox="0 0 205 116" role="img" aria-label="Three colorful parallel waves">
+              <path d="M8 24 C38 1 69 1 99 24 S160 47 197 24" fill="none" stroke="#F05A47" stroke-width="16" stroke-linecap="round"/>
+              <path d="M8 58 C38 35 69 35 99 58 S160 81 197 58" fill="none" stroke="#14324A" stroke-width="16" stroke-linecap="round"/>
+              <path d="M8 92 C38 69 69 69 99 92 S160 115 197 92" fill="none" stroke="#2BA6A5" stroke-width="16" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
       </div>
-      <div>
-        <h2 style="font-size:1.35rem;margin-bottom:1rem">It doesn't fit you if</h2>
-        <ul class="plain no">
-          <li>You need custom software. I will point you elsewhere.</li>
-          <li>You want AI because it sounds good in a pitch.</li>
-          <li>You are not going to change anything. The report only pays for itself if you use it.</li>
-        </ul>
+    </section>
+
+    <section class="statement">
+      <div class="shell statement-grid">
+        <h2>You are already using AI.<br>You know there is more to it.</h2>
+        <div>
+          <p>ChatGPT is helping. You may be paying for one of the leading models, trying new tools, or building something you are genuinely proud of. Some things work. Some things almost work.</p>
+          <p style="margin-top:1rem">But the choices keep multiplying. Do I go to chat? Work in a project? Build an automation? Use a skill or a plugin? Are we even prompting anymore? Just as you find your footing, something changes again. It is exhausting.</p>
+          <p style="margin-top:1rem">The problem is not that you are doing it wrong. There is no one-size-fits-all AI setup. The useful answer is the one translated into your business, your work, and the way you want to operate.</p>
+        </div>
       </div>
+    </section>
+
+    <section class="section" id="assessment">
+      <div class="shell">
+        <div class="section-head">
+          <h2>The AI Tools Assessment</h2>
+          <p>We start with a 45-minute working conversation. You show me where the week gets repetitive, expensive, or simply annoying. Then I research and test current tools and come back with three to seven specific recommendations.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <h3>Show me the week</h3>
+            <p>What you repeat, what you avoid, what costs too much time or money, and what you’ve already tried.</p>
+          </li>
+          <li class="step">
+            <h3>I test and translate</h3>
+            <p>I start with the problem, then look for the most practical and useful answer—not the most impressive stack.</p>
+          </li>
+          <li class="step">
+            <h3>You get the plan</h3>
+            <p>Three to seven recommendations, with costs, priorities, a four-day start plan, and the reasoning behind them.</p>
+          </li>
+          <li class="step">
+            <h3>We review it</h3>
+            <p>A 30-minute call so the report becomes action, not another file you never open.</p>
+          </li>
+          <li class="step">
+            <h3>I am here if you need me</h3>
+            <p>For two weeks after our review call, you can email me with questions as you get started. I will reply within two business days.</p>
+          </li>
+        </ol>
+
+        <div class="understanding-note">
+          <h3>You stay in charge.</h3>
+          <div>
+            <p class="future-line">Tomorrow will be more digital and more AI-driven than today.</p>
+            <p>The goal is not to chase every new tool. It is to understand the problem, think from first principles, and build enough judgment to know what good looks like. I do not just hand you a plan and disappear. I explain what we are doing in plain English, what to ask, and how to evaluate the result. AI can do more of the work. You keep the taste, judgment, and final say—and both you and your business leave more capable than before.</p>
+            <blockquote>
+              “You can outsource your thinking, but you can’t outsource your understanding.”
+              <cite>Shared by <a href="https://karpathy.bearblog.dev/sequoia-ascent-2026/" target="_blank" rel="noopener">Andrej Karpathy</a>, who credits an earlier tweet.</cite>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="price-row">
+          <p><strong>Founding rate for my first few clients.</strong><br>Delivered in about two weeks.</p>
+          <p class="price"><del>$999</del>$499</p>
+        </div>
+
+        <div class="guarantee">
+          <div class="draft">The five-hour<br>guarantee</div>
+          <p>If your report does not document at least five reclaimable hours a week, and we agree on that together at the review call, no invoice. You pay nothing and keep the report.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="shell about-grid">
+        <div>
+          <p class="eyebrow" style="color:var(--navy-deep)">Meet Rita</p>
+          <h2>I build.<br>I connect dots.<br>I find better ways.</h2>
+          <div class="fields" aria-label="Rita's areas of experience">
+            <span>Operations</span>
+            <span>Advertising</span>
+            <span>E-commerce</span>
+          </div>
+        </div>
+        <div class="about-copy">
+          <p>I have spent my career at the intersection of operations, advertising, and e-commerce. I am a builder, a dot connector, and the person who is always looking for a better way to make the work work. AI has helped me do that in my own business and my own life, with real results I can feel every day: less friction, clearer decisions, and more room for the things only I can do. I have learned where it helps, where it breaks, and what it takes to make it useful. Now I want to bring other people along.</p>
+          <p class="signature">I am Spanish, fully bilingual, optimistic by nature, and allergic to unnecessary complication. I will tell you what is useful, what is not ready, and what is simply another subscription wearing a clever costume.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="fit">
+      <div class="shell">
+        <div class="fit-grid">
+          <div class="fit-card">
+            <h3>This fits you if</h3>
+            <ul>
+              <li>You run a 2-to-20-person business, or you are the business.</li>
+              <li>Admin, email, books, and paperwork take time from the work you are good at.</li>
+              <li>You have tried AI, gotten somewhere, and gotten stuck.</li>
+              <li>You want one clear plan, not another subscription.</li>
+            </ul>
+          </div>
+          <div class="fit-card">
+            <h3>It does not fit you if</h3>
+            <ul>
+              <li>You need custom software. I will say so and point you in the right direction.</li>
+              <li>You want a company-wide AI transformation plan. This assessment starts smaller, with the real work in front of you.</li>
+              <li>You do not have room to try even one small change right now. The value comes from using the plan, not simply having it.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="questions">
+      <div class="shell faq-grid">
+        <div class="faq-intro">
+          <p class="eyebrow">A few practical questions</p>
+          <h2>No AI vocabulary test required.</h2>
+        </div>
+        <div>
+          <details open>
+            <summary>Where do you work?</summary>
+            <p>Remotely, with people anywhere. In English or Spanish.</p>
+          </details>
+          <details>
+            <summary>Do I need to be technical?</summary>
+            <p>No. If you can describe your week and where it gets stuck, we can do this.</p>
+          </details>
+          <details>
+            <summary>What if I already use ChatGPT or another AI tool?</summary>
+            <p>Good. This assessment is built for people who have already tried something and want to make it more useful.</p>
+          </details>
+          <details>
+            <summary>What if the AI makes things up?</summary>
+            <p>It can. That is why AI should never get the last word. Useful AI work needs verification, clear sources, and checkpoints before anything important is sent, published, or acted on. In the Life OS I use myself, every job carries a contract (what it promises), a receipt (proof it happened), and an audience (who reads the result). That makes the work checkable and keeps a human responsible for the final decision. Part of the assessment is deciding where your work needs those safeguards.</p>
+          </details>
+          <details>
+            <summary>Will you try to sell me software?</summary>
+            <p>No. I do not take affiliate fees or vendor commissions. The recommendation has to earn its place in your business.</p>
+          </details>
+          <details>
+            <summary>What happens to what I tell you?</summary>
+            <p>Your assessment stays confidential. I will not use your name, business, recordings, workflows, or results in marketing without your written permission.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="shell">
+        <p class="eyebrow">Don’t wait. This train is not stopping.</p>
+        <h2>Show me the thing that keeps wasting your time.</h2>
+        <p>Start with a short conversation. No pitch. No homework. Tell me what you tried and where it got stuck.</p>
+        <a class="button light" href="mailto:rita@lucentiaworks.com?subject=Here%27s%20where%20I%20got%20stuck">rita@lucentiaworks.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-row">
+      <a class="wordmark" href="#top">
+        <strong>Lucent<span class="ia">IA</span></strong>
+        <small>Works</small>
+      </a>
+      <p>AI Tools Assessment · English / Español · <a href="privacy.html">Privacy</a></p>
     </div>
+  </footer>
   </div>
-</section>
 
-<section class="about">
-  <div class="wrap">
-    <h2>Rita Abad</h2>
-    <p>I spent 25 years translating between people who build systems and people who run their day inside them. For the past year I have built agentic AI systems for my business, household and life, every day. Four billion tokens later, I still find the pace hard to keep up with.</p>
-    <p>Cheap intelligence does not walk itself into a small business. Someone has to carry it into an actual Tuesday for an owner with no time to become an AI expert. I built the operations skills for that long before the AI part.</p>
-    <p>I am a practitioner, not a reseller or a course. In English or Spanish, I will tell you what will help and what will waste your money.</p>
-    <p>LucentIA Works is named for Alicante, where I am from. Lucentum was its Roman name, and <em>IA</em> is <em>inteligencia artificial</em>. Light, and the work. That is the idea.</p>
-    <p class="strip">Bilingual, English and Spanish &nbsp;·&nbsp; Chicago and Alicante<br>Independent. No affiliate fees, no vendor kickbacks.</p>
-  </div>
-</section>
+  <div data-language-panel="es" hidden>
+  <main id="inicio">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Evaluación de herramientas de IA · Español / English</p>
+          <h1>La IA debería hacerte la semana más fácil.</h1>
+          <p class="lede">Has probado las herramientas. Algunas cosas funcionan, otras casi, y las opciones no dejan de multiplicarse. Yo evalúo cómo funciona tu negocio y te doy un plan claro y práctico para que sepas qué hacer después.</p>
+          <a class="button" href="#contacto">¿Dónde te atascas?</a>
+          <p class="micro">Una primera conversación breve. Sin venderte nada. Sin deberes.</p>
+        </div>
 
-<section>
-  <div class="wrap">
-    <h2>If you want a hand actually doing it</h2>
-    <p>The report is yours to run with. That is a good outcome.</p>
-    <p>If you want help implementing it, I will take on no more than two ongoing clients at a time. We meet twice a month, pick one thing and get it working. You keep the system.</p>
-    <p><strong>$750 to $1,000 a month.</strong> Your assessment fee comes off the first month if you start within 60 days.</p>
-  </div>
-</section>
+        <div class="portrait-wrap" aria-label="Retrato de Rita Abad">
+          <div class="coral-corner" aria-hidden="true"></div>
+          <div class="portrait-block">
+            <img src="rita-hero-studio-2026-07-29.jpeg" alt="Rita Abad sonriendo en un retrato profesional">
+          </div>
+          <div class="wave-signature" aria-label="Símbolo de ondas de la Explanada de LucentIA Works">
+            <svg viewBox="0 0 205 116" role="img" aria-label="Tres ondas paralelas de colores">
+              <path d="M8 24 C38 1 69 1 99 24 S160 47 197 24" fill="none" stroke="#F05A47" stroke-width="16" stroke-linecap="round"/>
+              <path d="M8 58 C38 35 69 35 99 58 S160 81 197 58" fill="none" stroke="#14324A" stroke-width="16" stroke-linecap="round"/>
+              <path d="M8 92 C38 69 69 69 99 92 S160 115 197 92" fill="none" stroke="#2BA6A5" stroke-width="16" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <div class="wrap">
-    <h2>Questions people actually ask</h2>
-    <div class="faq">
-      <details><summary>Do I need to be technical?</summary><p>No. If you can describe your week, you can do this.</p></details>
-      <details><summary>Will you try to sell me software?</summary><p>No. I take no affiliate fees or vendor commissions. Most recommendations cost zero to forty dollars a month.</p></details>
-      <details><summary>What happens to what I tell you?</summary><p>Your discovery call lives in professional AI tools under agreements that don't train on your data, in access-controlled storage. I delete working files on request, and routine backups age out on a schedule. The engagement letter you sign before we start spells all of this out in plain language.</p></details>
-      <details><summary>Do you work in Spanish?</summary><p>Yes. Calls, report and follow-up in English or Spanish.</p></details>
-      <details><summary>How long does it take?</summary><p>About two weeks, start to finish.</p></details>
-      <details><summary>What if I already use ChatGPT?</summary><p>Good. You know its limits. This is for you.</p></details>
+    <section class="statement">
+      <div class="shell statement-grid">
+        <h2>Ya estás usando la IA.<br>Y sabes que podrías sacarle mucho más partido.</h2>
+        <div>
+          <p>¿Usas ChatGPT y te ayuda? Quizá ya estás pagando por uno de los modelos más avanzados. Pruebas las herramientas nuevas y haces tus pinitos. Algunas cosas funcionan, otras casi.</p>
+          <p style="margin-top:1rem">Pero las opciones no paran de multiplicarse. ¿Trabajo en ChatGPT? ¿Creo un proyecto? ¿Construyo una automatización? ¿Uso una skill o un plugin? ¿Es que ya no se usan los prompts?</p>
+          <p style="margin-top:1rem">Cuando por fin las cosas empiezan a encajar, los modelos vuelven a cambiar. Es agotador.</p>
+          <p style="margin-top:1rem">El problema no es que lo estés haciendo mal. No existe una configuración de IA que sirva para todo el mundo. La respuesta útil es la que se ajusta a tu negocio, tu trabajo y la forma en la que quieres trabajar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="evaluacion">
+      <div class="shell">
+        <div class="section-head">
+          <h2>La Evaluación de Herramientas de IA</h2>
+          <p>Empezamos con una sesión de trabajo de 45 minutos. Me enseñas qué tareas de tu semana son repetitivas, largas o simplemente tediosas. Yo me pongo a trabajar y vuelvo con entre tres y siete acciones concretas.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <h3>¿Cómo es tu semana?</h3>
+            <p>¿Qué repites? ¿Qué evitas? ¿Qué te cuesta demasiado tiempo o dinero? ¿Y qué has probado?</p>
+          </li>
+          <li class="step">
+            <h3>Yo evalúo, traduzco y creo un plan</h3>
+            <p>Empiezo por el problema y después busco la solución más práctica y útil. No te vendo software ni te complico la vida con herramientas innecesarias.</p>
+          </li>
+          <li class="step">
+            <h3>Recibes el plan</h3>
+            <p>Entre tres y siete acciones, con costes, prioridades, un plan de cuatro días para empezar y por qué cada una es relevante para ti.</p>
+          </li>
+          <li class="step">
+            <h3>Lo revisamos</h3>
+            <p>Una llamada de 30 minutos para que el plan se convierta en acción, no en otro archivo que nunca abres.</p>
+          </li>
+          <li class="step">
+            <h3>Estoy aquí si me necesitas</h3>
+            <p>Durante las dos semanas siguientes, puedes escribirme con tus dudas mientras arrancas. Te responderé en un plazo máximo de dos días laborables.</p>
+          </li>
+        </ol>
+
+        <div class="understanding-note">
+          <h3>Tú sigues al mando.</h3>
+          <div>
+            <p class="future-line">Mañana será más digital y la IA tendrá aún más peso que hoy.</p>
+            <p>El objetivo no es descargarte ni comprar cada herramienta nueva que aparece. Es entender el problema, razonar desde primeros principios y desarrollar el criterio necesario para reconocer un buen resultado. No me limito a darte un plan y desaparecer. Te explico con claridad lo que hacemos, qué pedirle a la IA y cómo evaluar su respuesta. La IA debe encargarse de la mayor parte del trabajo mecánico. Tú aportas el criterio y tienes la última palabra. Así te preparas tú y preparas tu negocio para esta nueva era.</p>
+            <blockquote>
+              “Puedes delegar el trabajo de pensar, pero no el de comprender.”
+              <cite>Una idea compartida por <a href="https://karpathy.bearblog.dev/sequoia-ascent-2026/" target="_blank" rel="noopener">Andrej Karpathy</a>, quien la atribuye a un tuit anterior.</cite>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="price-row">
+          <p><strong>Tarifa de lanzamiento para las primeras plazas.</strong><br>Informe entregado en unas dos semanas.</p>
+          <p class="price"><del>$999</del>$499</p>
+        </div>
+
+        <div class="guarantee">
+          <div class="draft">La garantía<br>de cinco horas</div>
+          <p>Si en la llamada de seguimiento llegamos a la conclusión de que el informe no te ahorra al menos cinco horas a la semana, no hay factura. No pagas nada y te quedas con el informe.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-rita">
+      <div class="shell about-grid">
+        <div>
+          <p class="eyebrow" style="color:var(--navy-deep)">Sobre Rita</p>
+          <h2>Lo mío es hacer que las cosas funcionen mejor.</h2>
+          <div class="fields" aria-label="Áreas de experiencia de Rita">
+            <span>Operaciones</span>
+            <span>Logística</span>
+            <span>Publicidad</span>
+            <span>Marketing</span>
+            <span>E-commerce</span>
+          </div>
+        </div>
+        <div class="about-copy">
+          <p>Mi carrera siempre ha estado en la intersección de las operaciones, la logística, la publicidad, el marketing y el e-commerce. Se me da bien encajar las piezas del puzle, identificar los cuellos de botella y encontrar una forma más sencilla de avanzar.</p>
+          <p style="margin-top:1.1rem">La IA ha cambiado fundamentalmente la manera en la que gestiono mi negocio y organizo mi vida. Me devuelve tiempo, me ayuda a decidir mejor y me permite enfocarme en las cosas que solo yo puedo hacer. También me ha enseñado a distinguir entre lo que de verdad es valioso y me ayuda, y el ruido.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="encaje">
+      <div class="shell">
+        <div class="fit-grid">
+          <div class="fit-card">
+            <h3>Esto encaja contigo si</h3>
+            <ul>
+              <li>Diriges un negocio de entre 2 y 20 personas, o tú eres el negocio.</li>
+              <li>Las tareas administrativas, el correo, la contabilidad y el papeleo te quitan tiempo de lo que haces mejor.</li>
+              <li>Has probado la IA, has avanzado y te has atascado.</li>
+              <li>Quieres un plan claro, no otra suscripción.</li>
+            </ul>
+          </div>
+          <div class="fit-card">
+            <h3>Esto no encaja contigo si</h3>
+            <ul>
+              <li>Necesitas software a medida. Te lo diré y te recomendaré a quién acudir.</li>
+              <li>Buscas un plan de transformación de IA para toda la empresa. Esta evaluación empieza por algo más concreto: el trabajo real que tienes delante.</li>
+              <li>Ahora mismo no tienes tiempo para poner los cambios en marcha. El valor está en llevar el plan a la práctica, no solo en tenerlo.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="preguntas">
+      <div class="shell faq-grid">
+        <div class="faq-intro">
+          <p class="eyebrow">Algunas preguntas prácticas</p>
+          <h2>No hace falta hablar «IA» para trabajar conmigo.</h2>
+        </div>
+        <div>
+          <details open>
+            <summary>¿Dónde trabajas?</summary>
+            <p>Trabajo en remoto, con personas de cualquier lugar, en español o en inglés.</p>
+          </details>
+          <details>
+            <summary>¿Necesito conocimientos técnicos?</summary>
+            <p>No. Si puedes contarme cómo es tu semana y dónde te atascas, ya tenemos por dónde empezar.</p>
+          </details>
+          <details>
+            <summary>¿Y si ya uso ChatGPT u otra herramienta de IA?</summary>
+            <p>Perfecto. Esta evaluación está pensada para personas que ya han probado algo y quieren sacarle más partido.</p>
+          </details>
+          <details>
+            <summary>¿Y si la IA se inventa cosas?</summary>
+            <p>Puede hacerlo. Por eso la IA nunca debe tener la última palabra. Para trabajar bien con IA hacen falta comprobaciones, fuentes claras y puntos de control antes de enviar, publicar o poner en marcha nada importante. En el Life OS que utilizo, cada tarea lleva un contrato —qué promete—, un recibo —la prueba de que se ha hecho— y un destinatario —quién recibe el resultado—. Así, el resultado se puede comprobar y un humano sigue siendo el responsable de la decisión final. Parte de la evaluación consiste en definir dónde se inserta el toque humano.</p>
+          </details>
+          <details>
+            <summary>¿Me vas a vender software?</summary>
+            <p>No, no cobro comisiones de afiliación ni de proveedores. Cada recomendación tiene que ganarse su sitio en tu negocio y en tu vida.</p>
+          </details>
+          <details>
+            <summary>¿Qué ocurre con la privacidad en lo que te cuento?</summary>
+            <p>Tu evaluación es confidencial. No utilizaré tu nombre, el de tu negocio, las grabaciones, los procesos ni los resultados en mi marketing sin tu permiso por escrito.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="shell">
+        <p class="eyebrow">No esperes. Este tren no lo para nadie.</p>
+        <h2>Cuéntame en qué te atascas y qué tareas repetitivas te hacen perder el tiempo.</h2>
+        <p>Empecemos con una conversación breve. Sin venderte nada. Sin deberes.</p>
+        <a class="button light" href="mailto:rita@lucentiaworks.com?subject=Aqu%C3%AD%20es%20donde%20me%20he%20atascado">rita@lucentiaworks.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-row">
+      <a class="wordmark" href="#inicio">
+        <strong>Lucent<span class="ia">IA</span></strong>
+        <small>Works</small>
+      </a>
+      <p>Evaluación de Herramientas de IA · Español / English · <a href="privacy.html">Privacidad</a></p>
     </div>
+  </footer>
   </div>
-</section>
 
-<section class="close">
-  <div class="wrap">
-    <h2>Start with fifteen minutes</h2>
-    <p>No pitch and no commitment. Tell me what your week looks like and I will show you one useful place to start.</p>
-    <div class="actions">
-      <a class="btn" href="mailto:rita@lucentiaworks.com?subject=Fifteen%20minutes&amp;body=Hi%20Rita%2C%20I%27d%20like%20the%20free%2015-minute%20look.%20Here%27s%20what%20my%20week%20looks%20like%3A">Email me for a free 15-minute look</a>
-      <a class="btn-text" href="mailto:rita@lucentiaworks.com">rita@lucentiaworks.com</a>
-    </div>
-  </div>
-</section>
-</main>
+  <script>
+    const languageButtons = document.querySelectorAll("[data-set-language]");
+    const languagePanels = document.querySelectorAll("[data-language-panel]");
+    const languageNavs = document.querySelectorAll("[data-language-nav]");
 
-<footer>
-  <div class="wrap">
-    <div class="mark"><span class="marktext">Lucent<i>IA</i><span>Works</span><svg class="wave" width="64" height="8" viewBox="0 0 76 8" aria-hidden="true"><path class="w1" d="M2 5 Q11.5 -1 21 5 T40 5 T59 5 T78 5"/></svg></span></div>
-    <div><a href="mailto:rita@lucentiaworks.com">rita@lucentiaworks.com</a></div>
-    <div>Chicago, Illinois &nbsp;·&nbsp; Alicante, España</div>
-    <p class="fine">Independent AI advisory. No affiliate relationships with any tool recommended. Guidance on tools and workflows only; not financial, legal, tax, or accounting advice. <a href="/privacy.html">Privacy</a>.</p>
-  </div>
-</footer>
+    function setLanguage(language) {
+      document.documentElement.lang = language;
+      document.title = language === "es"
+        ? "LucentIA Works — La IA debería hacerte la semana más fácil"
+        : "LucentIA Works — AI should make your week lighter";
 
+      languagePanels.forEach((panel) => {
+        panel.hidden = panel.dataset.languagePanel !== language;
+      });
+
+      languageNavs.forEach((nav) => {
+        nav.hidden = nav.dataset.languageNav !== language;
+      });
+
+      languageButtons.forEach((button) => {
+        button.setAttribute("aria-pressed", String(button.dataset.setLanguage === language));
+      });
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    languageButtons.forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.setLanguage));
+    });
+  </script>
 </body>
 </html>
